@@ -1,7 +1,7 @@
-fastapi==0.110.3             # FastAPI 웹 프레임워크, 라우팅/요청처리/응답 지원
-uvicorn==0.29.0              # ASGI 서버 (FastAPI 앱 실행)
+fastapi==0.115.0             # FastAPI 웹 프레임워크, 라우팅/요청처리/응답 지원
+uvicorn==0.30.0              # ASGI 서버 (FastAPI 앱 실행)
 python-multipart==0.0.9      # 파일 업로드(FormData) 지원
-pydantic==2.6.4              # 요청/응답 스키마 정의 및 검증
+pydantic==2.9.0              # 요청/응답 스키마 정의 및 검증
 python-dotenv==1.0.1         # .env 파일 로드해 환경변수 설정
 
 pypdf==4.2.0                 # PDF 텍스트 추출 (PdfReader 사용)

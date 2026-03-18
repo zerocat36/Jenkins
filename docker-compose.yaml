@@ -1,0 +1,14 @@
+# docker-compose.yaml
+services:
+  paper-api:
+    build: .
+    container_name: aiops
+    ports:
+      - "8004:8003"
+    env_file:
+      - .env
+    restart: unless-stopped
+
+    # docker compose up -d --build
+    # docker logs -f paper-api
+    # docker compose down

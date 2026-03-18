@@ -1,0 +1,19 @@
+# Git / env
+.git
+.gitignore
+.env
+.env.*
+
+# 가상환경
+aiops/
+venv/
+.venv/
+
+# 데이터 (이미지는 런타임에 생성)
+data/
+
+# IDE / 기타
+.idea
+.vscode
+*.md
+!README.md

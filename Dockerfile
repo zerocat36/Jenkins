@@ -21,4 +21,4 @@ RUN mkdir -p /app/data
 EXPOSE 8003
 
 # 실행
-CMD ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8003"]
+CMD ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8004"]
